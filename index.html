@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="nav">
+
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpeg" alt="logo"></a>
+            </div>
+        <div class="navbar">
+        
+        <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        
+        <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a href="index.html"><ion-icon name="home-outline" class="iconNav"></ion-icon></a></li>
+        </ul>
+        
+        </div>
+        </div>
+
+    </nav>
+
+    <h1 class="title">@wlh.ind</h1>
+    
+    <section class="products">
+
+            <div class="productSquare" onclick="window.location='shirts.html';">
+                <h2 class="titleProduct">Remeras</h2>
+            </div>
+
+            <div class="productSquare productSquare1" onclick="window.location='shirts.html';">
+                <h2 class="titleProduct">Buzos</h2>
+        </div>
+
+        <div class="productSquare productSquare2" onclick="window.location='shirts.html';">
+            <h2 class="titleProduct">Pantalones</h2>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
