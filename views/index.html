@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
 
@@ -13,7 +15,7 @@
 
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="images/logo.jpeg" alt="logo"></a>
+                <a href="index.html"><img src="../public/images/logo.jpeg" alt="logo"></a>
             </div>
         <div class="navbar">
         
@@ -33,7 +35,30 @@
 
     </nav>
 
-    <h1>Productos...</h1>
+    <div class="contactLink">
+        <a href="#" class="contact">
+            <h1 class="title">
+                <span><ion-icon name="logo-instagram" class="iconIg"></ion-icon></span>
+                @wlh.ind
+            </h1>
+        </a>    
+    </div>
+
+    <section class="products">
+
+            <div class="productSquare" onclick="window.location='shirts.html';">
+                <h2 class="titleProduct">Remeras</h2>
+            </div>
+
+            <div class="productSquare productSquare1" onclick="window.location='shirts.html';">
+                <h2 class="titleProduct">Buzos</h2>
+        </div>
+
+        <div class="productSquare productSquare2" onclick="window.location='shirts.html';">
+            <h2 class="titleProduct">Pantalones</h2>
+        </div>
+
+    </section>
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
